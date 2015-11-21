@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A64C54CF1BEF6F7D00F3FE3E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C54CD1BEF6F7D00F3FE3E /* TableViewController.swift */; };
+		A64C54D01BEF6F7D00F3FE3E /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A64C54CE1BEF6F7D00F3FE3E /* TableViewController.xib */; };
 		A68C5FF11BEF62EA0007EEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C5FF01BEF62EA0007EEF7 /* AppDelegate.swift */; };
 		A68C5FF31BEF62EA0007EEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C5FF21BEF62EA0007EEF7 /* ViewController.swift */; };
 		A68C5FF61BEF62EA0007EEF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68C5FF41BEF62EA0007EEF7 /* Main.storyboard */; };
 		A68C5FF81BEF62EA0007EEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68C5FF71BEF62EA0007EEF7 /* Assets.xcassets */; };
 		A68C5FFB1BEF62EA0007EEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68C5FF91BEF62EA0007EEF7 /* LaunchScreen.storyboard */; };
+		A68C60031BEF639D0007EEF7 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C60021BEF639D0007EEF7 /* CAPSPageMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A64C54CD1BEF6F7D00F3FE3E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A64C54CE1BEF6F7D00F3FE3E /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		A68C5FED1BEF62EA0007EEF7 /* RoyalMilkTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalMilkTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68C5FF01BEF62EA0007EEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68C5FF21BEF62EA0007EEF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		A68C5FF71BEF62EA0007EEF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A68C5FFA1BEF62EA0007EEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A68C5FFC1BEF62EA0007EEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68C60021BEF639D0007EEF7 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = "../../PageMenu-master/Classes/CAPSPageMenu.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		A68C5FEF1BEF62EA0007EEF7 /* RoyalMilkTea */ = {
 			isa = PBXGroup;
 			children = (
+				A68C60021BEF639D0007EEF7 /* CAPSPageMenu.swift */,
 				A68C5FF01BEF62EA0007EEF7 /* AppDelegate.swift */,
 				A68C5FF21BEF62EA0007EEF7 /* ViewController.swift */,
+				A64C54CD1BEF6F7D00F3FE3E /* TableViewController.swift */,
+				A64C54CE1BEF6F7D00F3FE3E /* TableViewController.xib */,
 				A68C5FF41BEF62EA0007EEF7 /* Main.storyboard */,
 				A68C5FF71BEF62EA0007EEF7 /* Assets.xcassets */,
 				A68C5FF91BEF62EA0007EEF7 /* LaunchScreen.storyboard */,
@@ -125,6 +134,7 @@
 				A68C5FFB1BEF62EA0007EEF7 /* LaunchScreen.storyboard in Resources */,
 				A68C5FF81BEF62EA0007EEF7 /* Assets.xcassets in Resources */,
 				A68C5FF61BEF62EA0007EEF7 /* Main.storyboard in Resources */,
+				A64C54D01BEF6F7D00F3FE3E /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +147,8 @@
 			files = (
 				A68C5FF31BEF62EA0007EEF7 /* ViewController.swift in Sources */,
 				A68C5FF11BEF62EA0007EEF7 /* AppDelegate.swift in Sources */,
+				A68C60031BEF639D0007EEF7 /* CAPSPageMenu.swift in Sources */,
+				A64C54CF1BEF6F7D00F3FE3E /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +260,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RoyalMilkTea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.tanakashuji.RoyalMilkTea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,6 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RoyalMilkTea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.tanakashuji.RoyalMilkTea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +298,7 @@
 				A68C60011BEF62EA0007EEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
